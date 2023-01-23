@@ -1,9 +1,6 @@
-def convert(s):
-    '''convert to integer'''
-    try:
-        x = int(s)
-        print("Konversi berhasil!, x = ", x)
-    except ValueError:
-        print("Konversi gagal!")
-        x = -1
-    return x
+try:
+    a = int(input('masukkan nilai a '))
+    b = int(input('masukkan nilai b '))
+    print('hasil a/b adalah',a/b)
+except ZeroDivisionError:
+    print('masukkan angka selain 0')
