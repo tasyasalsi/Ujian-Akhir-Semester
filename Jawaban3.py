@@ -1,9 +1,8 @@
 import tkinter
-from tkinter import *
-root = Tk()
-root.wm_title("Jendela Utama")
-root.wm_iconbitmap('one.ico')
-root.geometry('300x200')
-root.configure(bg="white")
-root.state("normal")
-root.mainloop()
+
+main_window = tkinter.Tk()
+
+label = tkinter.Label(main_window, text = "Natasya Salsi Anugrah \n 202108801158")
+
+label.pack()
+main_window.mainloop()
